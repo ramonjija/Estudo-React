@@ -1,13 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './component'
-import {Primeiro, Segundo} from './doisComponentes'
+// import Component from './component'
+// import {Primeiro, Segundo} from './doisComponentes'
+import FamilySilva from './familySilva'
 
 ReactDOM.render(
 <div>
-    <Primeiro />
-    <Component value="Show!" />
-    <Segundo />
-    <Component value="Show de novo!" />
+   <FamilySilva />
 </div>, 
 document.getElementById('app'))
