@@ -128,4 +128,3 @@ Desktop.ini
 # Visual Studio 2014 CTP
 **/*.sln.ide
 *.msi
-DatingApp/DatingApp.API/DatingApp.db
