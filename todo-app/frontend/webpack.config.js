@@ -2,7 +2,7 @@ const webpack = require('webpack')
 const extractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
-    entry: '.src/index.jsx',
+    entry: './src/index.jsx',
     output: {
         path: __dirname + '/public',
         filename: './app.js'
@@ -20,7 +20,7 @@ module.exports = {
     plugins: [
         new extractTextPlugin('app.css')
     ],
-    modules: {
+    module: {
         loaders: [{
             test: /.js[x]?$/,
             loader: 'babel-loader',
