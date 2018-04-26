@@ -107,13 +107,11 @@ ClientBin/
 modulesbin/
 tempbin/
 */node_modules/
-*/*/node_modules/
-
 
 
 # =========================
 # Windows detritus
-# =========================
+# ===========   ==============
 
 # Windows image file caches
 Thumbs.db
